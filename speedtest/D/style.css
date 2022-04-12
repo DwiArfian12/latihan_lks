@@ -1,0 +1,73 @@
+body {
+	background-color: lightcyan;
+	font-family: Arial;
+}
+
+.container {
+	margin: 0 auto;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.card {
+	background-color: white;
+	width: 50vh;
+	height: 25vh;
+	padding: 10px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+}
+
+.form-group {
+	display: flex;
+	justify-content: space-between;
+}
+
+input[type=text]{
+	width: 200px;
+}
+
+.btn {
+	background-color: lightblue;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: blue;
+	color: white;
+}
+
+.alert {
+	width: 50vh;
+	padding: 10px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.alert-success {
+	background-color: green;
+	color: white;
+}
+
+.alert-danger {
+	background-color: indianred;
+	color: white;
+}

@@ -1,0 +1,41 @@
+body {
+	background-color: lightsalmon;
+	font-family: Helvetica;
+}
+
+.container {
+	color: white;
+	margin: 0 auto;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.card {
+	background-color: ghostwhite;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	height: 60vh;
+	width: 120vh;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin: 0 auto;
+}
+
+.color {
+	background-color: rgba(128, 128, 128, 1);
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.slider {
+	margin-top: 10px;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
